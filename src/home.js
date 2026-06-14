@@ -2,25 +2,7 @@ import myImage from "./image.jpg";
 let domLoader = () => {
 
     const body = document.body;
-    const header = document.createElement("header");
-    const welcomeMsg = document.createElement("h1");
-    const img = document.createElement("img");
-    img.src = myImage;
-    img.alt = "some restaurant logo";
-    const imageRef = document.createElement("p");
-    const personRef = document.createElement("a");
-    personRef.textContent = "Adhitya Sibikumar";
-    const siteRef = document.createElement("a");
-    siteRef.textContent = "Unsplash";
-    personRef.href = "https://unsplash.com/@adhitya_2505?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText";
-    siteRef.href = "https://unsplash.com/photos/subway-logo-with-green-background-vOJk_JT2DcU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText";
-    const nav = document.createElement("nav");
-    const menu = document.createElement("button");
-    const about = document.createElement("button");
-    const reviews = document.createElement("button");
-    menu.textContent = "Menu";
-    about.textContent = "About";
-    reviews.textContent = "Reviews";
+    
     const content = document.getElementById("content");
     const p1 = document.createElement("p");
     const p2 = document.createElement("p");
@@ -28,23 +10,6 @@ let domLoader = () => {
     const p4 = document.createElement("p");
     const footer = document.createElement("footer");
     const copyText = document.createElement("p");
-
-
-    content.appendChild(header);
-    welcomeMsg.textContent = "Welcome to Rami's restaurant";
-    header.appendChild(welcomeMsg);
-    header.appendChild(img);
-
-    imageRef.textContent = "Photo by ";
-    imageRef.appendChild(personRef);
-    imageRef.append(" on ");
-    imageRef.appendChild(siteRef);
-
-    header.appendChild(imageRef);
-    nav.appendChild(menu);
-    nav.appendChild(about);
-    nav.appendChild(reviews);
-    header.appendChild(nav);
 
     p1.innerHTML = "Since you chose to see my project, you deserve to learn some knowledge." + 
     "<br>" + "Let's talk about the first restaurant in the world...";
