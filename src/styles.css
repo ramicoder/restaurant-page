@@ -1,3 +1,10 @@
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 60px;
+}
+
 h1, nav, p {
     text-align: center;
     margin: 10px;
@@ -10,6 +17,7 @@ button {
     font-size: 18px;
     background-color: aqua;
 }
+
 p {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    font-size: 22px;

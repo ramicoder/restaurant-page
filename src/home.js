@@ -1,11 +1,13 @@
 
-let domLoader = () => {
+let homeLoader = () => {
+
 
     const body = document.body;
     
     const button = document.getElementById("homeBtn");
-    button.style.backgroundColor = "grey";
+    
     const content = document.getElementById("content");
+    content.classList.add("first");
     const p1 = document.createElement("p");
     const p2 = document.createElement("p");
     const p3 = document.createElement("p");
@@ -30,4 +32,4 @@ let domLoader = () => {
     footer.appendChild(copyText);
 
 }
-export default domLoader;
+export default homeLoader;
