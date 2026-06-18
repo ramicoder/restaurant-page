@@ -1,6 +1,7 @@
 import "./styles.css";
 import homeLoader from "./home.js";
-import aboutLoader from "./about.js"
+import aboutLoader from "./about.js";
+import reviewsLoader from "./reviews.js";
 homeLoader();
 
 const content = document.getElementById("content");
@@ -23,4 +24,12 @@ about.addEventListener("click", () => {
     reviews.style.backgroundColor = "aqua";
     content.innerHTML = "";
     aboutLoader();
+});
+
+reviews.addEventListener("click", () => {
+    home.style.backgroundColor = "aqua";
+    about.style.backgroundColor = "aqua";
+    reviews.style.backgroundColor = "gray";
+    content.innerHTML = "";
+    reviewsLoader();
 });

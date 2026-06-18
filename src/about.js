@@ -14,7 +14,7 @@ const aboutLoader = () => {
         </section>
 
         <section class="story-section">
-            <h3>The Chef's Journey</h3>
+            <h2>The Chef's Journey</h3>
             <p>The journey started in Canada before bringing the kitchen to Erbil. True discipline wasn't just learned in a classroom; it was forged on the mats earning a blue belt and taking home medals in BJJ. That exact same grit was brought to the academic world—scaling from mastering the curriculum to teaching complex math to university engineering peers.</p>
         </section>
 
@@ -23,13 +23,14 @@ const aboutLoader = () => {
             <div class="menu-grid">
                 <div class="menu-item">
                     <img src="${cs50xImg}" alt="CS50x Certification" class="cert-img">
+                    <img src="${cs50sqlImg}" alt="CS50SQL Certification" class="cert-img">
                     <div class="item-details">
                         <h4>Appetizers (Foundations)</h4>
                         <p>CS50x & CS50SQL Certifications.</p>
                     </div>
                 </div>
                 <div class="menu-item">
-                    <img src="${cs50sqlImg}" alt="CS50SQL Certification" class="cert-img">
+                    
                     <div class="item-details">
                         <h4>Main Courses (Expertise)</h4>
                         <p>Serving up instruction in Data Structures, Algorithms, and Web Development.</p>

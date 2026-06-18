@@ -5,7 +5,7 @@
     gap: 60px;
 }
 
-h1, nav, p {
+h1, nav, p, h2 {
     text-align: center;
     margin: 10px;
 }
@@ -23,12 +23,11 @@ p {
    font-size: 22px;
 }
 
-.about-content {
+.about-content, .about-content p{
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
-    font-family: 'Courier New', Courier, monospace; /* Gives a slight typewriter/menu feel */
-    color: #222;
+    font-family: 'Courier New', Courier, monospace; 
 }
 
 .hero-section, .story-section {
@@ -85,4 +84,23 @@ p {
     object-fit: cover;
     border-radius: 8px;
     border: 1px solid #ddd;
+}
+
+.reviews-content {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace; 
+    gap: 30px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 600px;
+    border-radius: 10px;
+    border: 2px solid black;
 }
