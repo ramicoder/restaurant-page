@@ -1,5 +1,5 @@
 
-let homeLoader = () => {
+const homeLoader = () => {
 
 
     const body = document.body;

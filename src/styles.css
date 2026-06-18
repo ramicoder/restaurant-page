@@ -22,3 +22,67 @@ p {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    font-size: 22px;
 }
+
+.about-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace; /* Gives a slight typewriter/menu feel */
+    color: #222;
+}
+
+.hero-section, .story-section {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-top: 3px solid #111;
+    border-bottom: 3px solid #111;
+}
+
+.hero-section h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.menu-section {
+    text-align: center;
+}
+
+.menu-section h3 {
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    text-align: center;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border: 1px dashed #777; 
+}
+
+.chef-special {
+    grid-column: -1 / 1;
+    justify-content: center;
+    text-align: center;
+    background-color: #eee;
+}
+
+
+.cert-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
