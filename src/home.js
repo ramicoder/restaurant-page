@@ -8,7 +8,7 @@ const homeLoader = () => {
     
     const content = document.getElementById("content");
     content.classList.add("first");
-    const p1 = document.createElement("p");
+    const p1 = document.createElement("h2");
     const p2 = document.createElement("p");
     const p3 = document.createElement("p");
     const p4 = document.createElement("p");
