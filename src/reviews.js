@@ -45,14 +45,7 @@ const reviewsLoader = () => {
                 </div>
             </div>
         </div>
-    </div>
-
-    `
-    const footer = document.createElement("footer");
-    const copyText = document.createElement("p");
-    copyText.innerHTML = "&COPY; 2026 Rami Daood. All Rights Reserved.";
-    content.appendChild(footer);
-    footer.appendChild(copyText);
+    </div>`
 }
 
 export default reviewsLoader

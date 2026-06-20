@@ -27,9 +27,5 @@ const homeLoader = () => {
     content.appendChild(p3);
     content.appendChild(p4);
 
-    copyText.innerHTML = "&COPY; 2026 Rami Daood. All Rights Reserved.";
-    content.appendChild(footer);
-    footer.appendChild(copyText);
-
 }
 export default homeLoader;

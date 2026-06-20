@@ -47,11 +47,5 @@ const aboutLoader = () => {
     `;
 
     content.appendChild(aboutContainer);
-    const footer = document.createElement("footer");
-    const copyText = document.createElement("p");
-    copyText.innerHTML = "&COPY; 2026 Rami Daood. All Rights Reserved.";
-    content.appendChild(footer);
-    footer.appendChild(copyText);
-   
 }
 export default aboutLoader;
